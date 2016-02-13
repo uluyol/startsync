@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package startsync;
+
+option go_package = "pb";
+
+service StartSync {
+	rpc Wait (WaitReq) returns (WaitResp) {}
+}
+
+message WaitReq {
+	string key = 1;
+	int32 count = 2;
+}
+
+message WaitResp {
+	bool start = 1;
+	int32 count = 2;
+}
