@@ -1,5 +1,5 @@
 
-REPO = uluyol/startsync
+REPO = quay.io/uluyol/startsync
 VERSION = 0.1
 
 .PHONY: all docker-build
