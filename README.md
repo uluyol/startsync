@@ -8,4 +8,4 @@ experiments. While startsync will not achieve exact
 synchronization, in practice, it should be sufficient for tasks
 like distributed load generation for benchmark purposes.
 
-Docker image: https://hub.docker.com/r/uluyol/startsync/
+Docker image: https://quay.io/repository/uluyol/startsync
